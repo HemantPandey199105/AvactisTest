@@ -19,7 +19,7 @@ public class TestBase {
 		prop = new Properties();
 		try {
 			FileInputStream file = new FileInputStream(
-					"E:\\automation\\AvactisTest\\src\\main\\java\\com\\avactis\\qa\\config\\config.properties");
+					"src\\main\\java\\com\\avactis\\qa\\config\\config.properties");
 			prop.load(file);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

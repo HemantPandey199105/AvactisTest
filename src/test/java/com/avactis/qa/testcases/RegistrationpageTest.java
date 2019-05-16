@@ -31,6 +31,6 @@ public class RegistrationpageTest extends TestBase {
 	@Test
   public void registrationTest(){
 		
-		register.userRegistration("hemant@gmail.com", "1234567", "1234567", "hemant", "pandey", "India", "Chhattisgarh", "497557", "Chirimiri", "XYX", "abcD", "7987169412");
+		register.userRegistration("hemannt@gmail.com", "1234567", "1234567", "hemant", "pandey", "India", "Chhattisgarh", "497557", "Chirimiri", "XYX", "abcD", "7987169412");
 	}
 }
